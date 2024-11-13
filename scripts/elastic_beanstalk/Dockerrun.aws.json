@@ -1,0 +1,32 @@
+{
+  "AWSEBDockerrunVersion": 2,
+  "containerDefinitions": [
+    {
+      "name": "app",
+      "image": "app_image_placeholder",
+      "environment": [
+        {
+          "name": "DATABASE_URL",
+          "value": "${DATABASE_URL}"
+        }
+      ],
+      "essential": true,
+      "memoryReservation": 256,
+      "portMappings": [
+        {
+          "hostPort": 80,
+          "containerPort": 8000
+        }
+      ]
+    },
+    {
+      "name": "celery-beat",
+      "image": "app_image_placeholder",
+      "command": [
+        "celery-beat"
+      ],
+      "essential": false,
+      "memoryReservation": 128
+    }
+  ]
+}

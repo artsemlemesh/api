@@ -1,0 +1,1266 @@
+[
+{
+    "model": "app.productcategory",
+    "pk": 1,
+    "fields": {
+        "created": "2020-11-30T15:09:11.741Z",
+        "modified": "2020-12-12T02:03:14.618Z",
+        "name": "One Pieces & Bodysuits",
+        "title": "One Pieces & Bodysuits",
+        "parent": null,
+        "slug": "one-pieces-bodysuits",
+        "lft": 1,
+        "rght": 16,
+        "tree_id": 2,
+        "level": 0
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 2,
+    "fields": {
+        "created": "2020-11-30T15:09:11.749Z",
+        "modified": "2020-12-12T01:37:45.746Z",
+        "name": "Romper Onesies",
+        "title": "Romper Onesies",
+        "parent": 1,
+        "slug": "romper-onesies",
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 2,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 3,
+    "fields": {
+        "created": "2020-11-30T15:09:11.757Z",
+        "modified": "2020-12-12T01:37:04.114Z",
+        "name": "Overalls & Shortalls",
+        "title": "Overalls & Shortalls",
+        "parent": 1,
+        "slug": "overalls-shortalls",
+        "lft": 14,
+        "rght": 15,
+        "tree_id": 2,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 4,
+    "fields": {
+        "created": "2020-11-30T15:09:11.765Z",
+        "modified": "2020-12-10T15:15:07.184Z",
+        "name": "Buntings",
+        "title": "Buntings",
+        "parent": 1,
+        "slug": "buntings",
+        "lft": 10,
+        "rght": 11,
+        "tree_id": 2,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 6,
+    "fields": {
+        "created": "2020-11-30T15:09:11.783Z",
+        "modified": "2020-12-10T15:15:07.195Z",
+        "name": "Jumpsuit",
+        "title": "Jumpsuit",
+        "parent": 1,
+        "slug": "jumpsuit",
+        "lft": 12,
+        "rght": 13,
+        "tree_id": 2,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 7,
+    "fields": {
+        "created": "2020-11-30T15:09:11.792Z",
+        "modified": "2020-12-12T02:02:34.202Z",
+        "name": "Tops & Tees",
+        "title": "Tops & Tees",
+        "parent": null,
+        "slug": "tops-tees",
+        "lft": 1,
+        "rght": 8,
+        "tree_id": 1,
+        "level": 0
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 8,
+    "fields": {
+        "created": "2020-11-30T15:09:11.799Z",
+        "modified": "2020-12-12T01:55:01.144Z",
+        "name": "Long Sleeve Tops & Tees",
+        "title": "Long Sleeve Tops & Tees",
+        "parent": 7,
+        "slug": "long-sleeve-tops-tees",
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 9,
+    "fields": {
+        "created": "2020-11-30T15:09:11.805Z",
+        "modified": "2020-12-12T01:55:32.462Z",
+        "name": "Short Sleeve Tops & Tees",
+        "title": "Short Sleeve Tops & Tees",
+        "parent": 7,
+        "slug": "short-sleeve-tops-tees",
+        "lft": 4,
+        "rght": 5,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 10,
+    "fields": {
+        "created": "2020-11-30T15:09:11.813Z",
+        "modified": "2020-12-12T01:55:54.590Z",
+        "name": "Tank Tops & Sleeveless",
+        "title": "Tank Tops & Sleeveless",
+        "parent": 7,
+        "slug": "tank-tops-sleeveless",
+        "lft": 6,
+        "rght": 7,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 11,
+    "fields": {
+        "created": "2020-11-30T15:09:11.821Z",
+        "modified": "2020-12-12T02:02:44.213Z",
+        "name": "Pants & Leggings",
+        "title": "Pants & Leggings",
+        "parent": null,
+        "slug": "pants-leggings",
+        "lft": 1,
+        "rght": 10,
+        "tree_id": 3,
+        "level": 0
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 12,
+    "fields": {
+        "created": "2020-11-30T15:09:11.828Z",
+        "modified": "2020-12-10T15:15:07.141Z",
+        "name": "Leggings",
+        "title": "Leggings",
+        "parent": 11,
+        "slug": "leggings",
+        "lft": 6,
+        "rght": 7,
+        "tree_id": 3,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 13,
+    "fields": {
+        "created": "2020-11-30T15:09:11.834Z",
+        "modified": "2020-12-10T15:15:07.148Z",
+        "name": "Pants",
+        "title": "Pants",
+        "parent": 11,
+        "slug": "pants",
+        "lft": 8,
+        "rght": 9,
+        "tree_id": 3,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 14,
+    "fields": {
+        "created": "2020-11-30T15:09:11.843Z",
+        "modified": "2020-12-10T15:15:07.130Z",
+        "name": "Jeans",
+        "title": "Jeans",
+        "parent": 11,
+        "slug": "jeans",
+        "lft": 4,
+        "rght": 5,
+        "tree_id": 3,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 16,
+    "fields": {
+        "created": "2020-11-30T15:09:11.860Z",
+        "modified": "2020-12-11T18:38:39.712Z",
+        "name": "Active Bottoms & Joggers",
+        "title": "Active Bottoms & Joggers",
+        "parent": 11,
+        "slug": "active-bottoms-joggers",
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 3,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 17,
+    "fields": {
+        "created": "2020-11-30T15:09:11.869Z",
+        "modified": "2020-12-12T02:02:51.467Z",
+        "name": "Shorts & Skirts",
+        "title": "Shorts & Skirts",
+        "parent": null,
+        "slug": "shorts-skirts",
+        "lft": 1,
+        "rght": 8,
+        "tree_id": 4,
+        "level": 0
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 18,
+    "fields": {
+        "created": "2020-11-30T15:09:11.877Z",
+        "modified": "2020-12-11T18:39:49.423Z",
+        "name": "Casual Shorts",
+        "title": "Casual Shorts",
+        "parent": 17,
+        "slug": "casual-shorts",
+        "lft": 4,
+        "rght": 5,
+        "tree_id": 4,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 19,
+    "fields": {
+        "created": "2020-11-30T15:09:11.884Z",
+        "modified": "2020-12-11T18:40:28.105Z",
+        "name": "Athletic & Active Shorts",
+        "title": "Athletic & Active Shorts",
+        "parent": 17,
+        "slug": "athletic-active-shorts",
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 4,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 20,
+    "fields": {
+        "created": "2020-11-30T15:09:11.892Z",
+        "modified": "2020-12-10T15:15:07.306Z",
+        "name": "Skirts & Skorts",
+        "title": "Skirts & Skorts",
+        "parent": 17,
+        "slug": "skirts-skorts",
+        "lft": 6,
+        "rght": 7,
+        "tree_id": 4,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 21,
+    "fields": {
+        "created": "2020-11-30T15:09:11.900Z",
+        "modified": "2020-12-12T02:02:56.247Z",
+        "name": "Pajamas & Sleepwear",
+        "title": "Pajamas & Sleepwear",
+        "parent": null,
+        "slug": "pajamas-sleepwear",
+        "lft": 1,
+        "rght": 18,
+        "tree_id": 6,
+        "level": 0
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 22,
+    "fields": {
+        "created": "2020-11-30T15:09:11.907Z",
+        "modified": "2020-12-12T01:42:31.856Z",
+        "name": "Pajama Tops",
+        "title": "Pajama Tops",
+        "parent": 21,
+        "slug": "pajama-tops",
+        "lft": 10,
+        "rght": 11,
+        "tree_id": 6,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 23,
+    "fields": {
+        "created": "2020-11-30T15:09:11.914Z",
+        "modified": "2020-12-12T01:41:38.861Z",
+        "name": "Pajama Pants",
+        "title": "Pajama Pants",
+        "parent": 21,
+        "slug": "pajama-pants",
+        "lft": 6,
+        "rght": 7,
+        "tree_id": 6,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 24,
+    "fields": {
+        "created": "2020-11-30T15:09:11.923Z",
+        "modified": "2020-12-10T15:15:07.257Z",
+        "name": "Pajama Shorts",
+        "title": "Pajama Shorts",
+        "parent": 21,
+        "slug": "pajama-shorts",
+        "lft": 8,
+        "rght": 9,
+        "tree_id": 6,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 25,
+    "fields": {
+        "created": "2020-11-30T15:09:11.931Z",
+        "modified": "2020-12-12T01:41:01.261Z",
+        "name": "Gowns",
+        "title": "Gowns",
+        "parent": 21,
+        "slug": "gowns",
+        "lft": 4,
+        "rght": 5,
+        "tree_id": 6,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 26,
+    "fields": {
+        "created": "2020-11-30T15:09:11.939Z",
+        "modified": "2020-12-12T01:45:26.641Z",
+        "name": "Sleep Sacks & Sleep Bags",
+        "title": "Sleep Sacks & Sleep Bags",
+        "parent": 21,
+        "slug": "sleep-sacks-sleep-bags",
+        "lft": 14,
+        "rght": 15,
+        "tree_id": 6,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 29,
+    "fields": {
+        "created": "2020-11-30T15:09:11.965Z",
+        "modified": "2020-12-10T15:15:07.282Z",
+        "name": "Swaddles",
+        "title": "Swaddles",
+        "parent": 21,
+        "slug": "swaddles",
+        "lft": 16,
+        "rght": 17,
+        "tree_id": 6,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 30,
+    "fields": {
+        "created": "2020-11-30T15:09:11.973Z",
+        "modified": "2020-12-12T02:03:21.074Z",
+        "name": "Dresses",
+        "title": "Dresses",
+        "parent": null,
+        "slug": "dresses",
+        "lft": 1,
+        "rght": 20,
+        "tree_id": 5,
+        "level": 0
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 38,
+    "fields": {
+        "created": "2020-11-30T15:09:12.033Z",
+        "modified": "2020-12-12T02:03:04.581Z",
+        "name": "Sweaters & Hoodies",
+        "title": "Sweaters & Hoodies",
+        "parent": null,
+        "slug": "sweaters-hoodies",
+        "lft": 1,
+        "rght": 10,
+        "tree_id": 8,
+        "level": 0
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 39,
+    "fields": {
+        "created": "2020-11-30T15:09:12.041Z",
+        "modified": "2020-12-11T18:40:51.028Z",
+        "name": "Cardigans",
+        "title": "Cardigans",
+        "parent": 38,
+        "slug": "cardigans",
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 8,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 40,
+    "fields": {
+        "created": "2020-11-30T15:09:12.048Z",
+        "modified": "2020-12-11T18:41:00.925Z",
+        "name": "Hoodies",
+        "title": "Hoodies",
+        "parent": 38,
+        "slug": "hoodies",
+        "lft": 4,
+        "rght": 5,
+        "tree_id": 8,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 41,
+    "fields": {
+        "created": "2020-11-30T15:09:12.057Z",
+        "modified": "2020-12-11T18:41:13.208Z",
+        "name": "Sweaters & Pullovers",
+        "title": "Sweaters & Pullovers",
+        "parent": 38,
+        "slug": "sweaters-pullovers",
+        "lft": 6,
+        "rght": 7,
+        "tree_id": 8,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 42,
+    "fields": {
+        "created": "2020-11-30T15:09:12.066Z",
+        "modified": "2020-12-10T15:15:07.340Z",
+        "name": "Vests",
+        "title": "Vests",
+        "parent": 38,
+        "slug": "vests",
+        "lft": 8,
+        "rght": 9,
+        "tree_id": 8,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 43,
+    "fields": {
+        "created": "2020-11-30T15:09:12.074Z",
+        "modified": "2020-12-12T02:02:59.984Z",
+        "name": "Jackets & Outerwear",
+        "title": "Jackets & Outerwear",
+        "parent": null,
+        "slug": "jackets-outerwear",
+        "lft": 1,
+        "rght": 12,
+        "tree_id": 7,
+        "level": 0
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 45,
+    "fields": {
+        "created": "2020-11-30T15:09:12.087Z",
+        "modified": "2020-12-11T18:25:33.778Z",
+        "name": "Snowsuits & Buntings",
+        "title": "Snowsuits & Buntings",
+        "parent": 43,
+        "slug": "snowsuits-buntings",
+        "lft": 4,
+        "rght": 5,
+        "tree_id": 7,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 46,
+    "fields": {
+        "created": "2020-11-30T15:09:12.096Z",
+        "modified": "2020-12-11T18:24:53.394Z",
+        "name": "Fashion Jackets & Coats",
+        "title": "Fashion Jackets & Coats",
+        "parent": 43,
+        "slug": "fashion-jackets-coats",
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 7,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 47,
+    "fields": {
+        "created": "2020-11-30T15:09:12.104Z",
+        "modified": "2020-12-11T18:29:12.501Z",
+        "name": "Winter Jackets & Coats",
+        "title": "Winter Jackets & Coats",
+        "parent": 43,
+        "slug": "winter-jackets-coats",
+        "lft": 10,
+        "rght": 11,
+        "tree_id": 7,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 50,
+    "fields": {
+        "created": "2020-11-30T15:09:12.129Z",
+        "modified": "2020-12-12T02:02:02.726Z",
+        "name": "Swimwear",
+        "title": "Swimwear",
+        "parent": null,
+        "slug": "swimwear",
+        "lft": 1,
+        "rght": 14,
+        "tree_id": 11,
+        "level": 0
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 51,
+    "fields": {
+        "created": "2020-11-30T15:09:12.136Z",
+        "modified": "2020-12-12T01:51:18.382Z",
+        "name": "Rashguards",
+        "title": "Rashguards",
+        "parent": 50,
+        "slug": "rashguards",
+        "lft": 8,
+        "rght": 9,
+        "tree_id": 11,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 52,
+    "fields": {
+        "created": "2020-11-30T15:09:12.143Z",
+        "modified": "2020-12-12T01:47:49.598Z",
+        "name": "One Piece Swimsuits",
+        "title": "One Piece Swimsuits",
+        "parent": 50,
+        "slug": "one-piece-swimsuits",
+        "lft": 6,
+        "rght": 7,
+        "tree_id": 11,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 53,
+    "fields": {
+        "created": "2020-11-30T15:09:12.152Z",
+        "modified": "2020-12-12T01:51:47.862Z",
+        "name": "Swim Diapers",
+        "title": "Swim Diapers",
+        "parent": 50,
+        "slug": "swim-diapers",
+        "lft": 10,
+        "rght": 11,
+        "tree_id": 11,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 54,
+    "fields": {
+        "created": "2020-11-30T15:09:12.160Z",
+        "modified": "2020-12-12T01:50:38.079Z",
+        "name": "Bikinis & Tankinis",
+        "title": "Bikinis & Tankinis",
+        "parent": 50,
+        "slug": "bikinis-tankinis",
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 11,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 55,
+    "fields": {
+        "created": "2020-11-30T15:09:12.169Z",
+        "modified": "2020-12-12T01:50:59.136Z",
+        "name": "Cover Ups & Bathrobes",
+        "title": "Cover Ups & Bathrobes",
+        "parent": 50,
+        "slug": "cover-ups-bathrobes",
+        "lft": 4,
+        "rght": 5,
+        "tree_id": 11,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 56,
+    "fields": {
+        "created": "2020-11-30T15:09:12.178Z",
+        "modified": "2020-12-12T01:53:00.007Z",
+        "name": "Swim Trunks & Shorts",
+        "title": "Swim Trunks & Shorts",
+        "parent": 50,
+        "slug": "swim-trunks-shorts",
+        "lft": 12,
+        "rght": 13,
+        "tree_id": 11,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 57,
+    "fields": {
+        "created": "2020-11-30T15:09:12.187Z",
+        "modified": "2020-12-12T02:01:42.080Z",
+        "name": "Undergarments",
+        "title": "Undergarments",
+        "parent": null,
+        "slug": "undergarments",
+        "lft": 1,
+        "rght": 12,
+        "tree_id": 12,
+        "level": 0
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 58,
+    "fields": {
+        "created": "2020-11-30T15:09:12.194Z",
+        "modified": "2020-12-12T02:00:19.642Z",
+        "name": "Socks & Tights",
+        "title": "Socks & Tights",
+        "parent": 57,
+        "slug": "socks-tights",
+        "lft": 6,
+        "rght": 7,
+        "tree_id": 12,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 60,
+    "fields": {
+        "created": "2020-11-30T15:09:12.208Z",
+        "modified": "2020-12-12T01:56:22.571Z",
+        "name": "Cloth Diapers",
+        "title": "Cloth Diapers",
+        "parent": 57,
+        "slug": "cloth-diapers",
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 12,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 61,
+    "fields": {
+        "created": "2020-11-30T15:09:12.216Z",
+        "modified": "2020-12-10T15:15:07.450Z",
+        "name": "Underwear",
+        "title": "Underwear",
+        "parent": 57,
+        "slug": "underwear",
+        "lft": 10,
+        "rght": 11,
+        "tree_id": 12,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 62,
+    "fields": {
+        "created": "2020-11-30T15:09:12.224Z",
+        "modified": "2020-12-10T15:15:07.444Z",
+        "name": "Undershirts",
+        "title": "Undershirts",
+        "parent": 57,
+        "slug": "undershirts",
+        "lft": 8,
+        "rght": 9,
+        "tree_id": 12,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 63,
+    "fields": {
+        "created": "2020-11-30T15:09:12.232Z",
+        "modified": "2020-12-12T02:01:50.608Z",
+        "name": "Accessories & more",
+        "title": "Accessories & more",
+        "parent": null,
+        "slug": "accessories-more",
+        "lft": 1,
+        "rght": 22,
+        "tree_id": 13,
+        "level": 0
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 64,
+    "fields": {
+        "created": "2020-11-30T15:09:12.240Z",
+        "modified": "2020-12-10T15:15:07.027Z",
+        "name": "Masks & Facecoverings",
+        "title": "Masks & Facecoverings",
+        "parent": 63,
+        "slug": "masks-facecoverings",
+        "lft": 10,
+        "rght": 11,
+        "tree_id": 13,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 65,
+    "fields": {
+        "created": "2020-11-30T15:09:12.247Z",
+        "modified": "2020-12-10T15:15:07.004Z",
+        "name": "Bibs",
+        "title": "Bibs",
+        "parent": 63,
+        "slug": "bibs",
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 13,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 66,
+    "fields": {
+        "created": "2020-11-30T15:09:12.256Z",
+        "modified": "2020-12-11T18:14:46.953Z",
+        "name": "Towels & Washcloths",
+        "title": "Towels & Washcloths",
+        "parent": 63,
+        "slug": "towels-washcloths",
+        "lft": 12,
+        "rght": 13,
+        "tree_id": 13,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 68,
+    "fields": {
+        "created": "2020-11-30T15:09:12.272Z",
+        "modified": "2020-12-11T18:14:04.321Z",
+        "name": "Fashion Accessories",
+        "title": "Fashion Accessories",
+        "parent": 63,
+        "slug": "fashion-accessories",
+        "lft": 18,
+        "rght": 19,
+        "tree_id": 13,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 69,
+    "fields": {
+        "created": "2020-11-30T15:09:12.280Z",
+        "modified": "2020-12-11T18:14:58.459Z",
+        "name": "Costumes",
+        "title": "Costumes",
+        "parent": 63,
+        "slug": "costumes",
+        "lft": 16,
+        "rght": 17,
+        "tree_id": 13,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 70,
+    "fields": {
+        "created": "2020-11-30T15:09:12.288Z",
+        "modified": "2020-12-10T15:15:07.034Z",
+        "name": "Other",
+        "title": "Other",
+        "parent": 63,
+        "slug": "other",
+        "lft": 20,
+        "rght": 21,
+        "tree_id": 13,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 72,
+    "fields": {
+        "created": "2020-12-11T18:12:25.940Z",
+        "modified": "2020-12-11T18:12:50.750Z",
+        "name": "Hair Accessories",
+        "title": "Hair Accessories",
+        "parent": 63,
+        "slug": "hair-accessories",
+        "lft": 6,
+        "rght": 7,
+        "tree_id": 13,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 73,
+    "fields": {
+        "created": "2020-12-11T18:16:06.146Z",
+        "modified": "2020-12-11T18:16:06.146Z",
+        "name": "Blankets",
+        "title": "Blankets",
+        "parent": 63,
+        "slug": "blankets",
+        "lft": 14,
+        "rght": 15,
+        "tree_id": 13,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 74,
+    "fields": {
+        "created": "2020-12-11T18:16:23.915Z",
+        "modified": "2020-12-11T18:16:23.915Z",
+        "name": "Hats & Scarves",
+        "title": "Hats & Scarves",
+        "parent": 63,
+        "slug": "hats-scarves",
+        "lft": 8,
+        "rght": 9,
+        "tree_id": 13,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 75,
+    "fields": {
+        "created": "2020-12-11T18:16:38.830Z",
+        "modified": "2020-12-11T18:16:38.830Z",
+        "name": "Gloves & Mittens",
+        "title": "Gloves & Mittens",
+        "parent": 63,
+        "slug": "gloves-mittens",
+        "lft": 4,
+        "rght": 5,
+        "tree_id": 13,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 76,
+    "fields": {
+        "created": "2020-12-11T18:18:46.536Z",
+        "modified": "2020-12-11T18:22:42.948Z",
+        "name": "Casual Long Sleeve Dresses",
+        "title": "Casual Long Sleeve Dresses",
+        "parent": 30,
+        "slug": "casual-long-sleeve-dresses",
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 5,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 77,
+    "fields": {
+        "created": "2020-12-11T18:18:58.744Z",
+        "modified": "2020-12-11T18:22:17.505Z",
+        "name": "Casual Short Sleeve Dresses",
+        "title": "Casual Short Sleeve Dresses",
+        "parent": 30,
+        "slug": "casual-short-sleeve-dresses",
+        "lft": 4,
+        "rght": 5,
+        "tree_id": 5,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 78,
+    "fields": {
+        "created": "2020-12-11T18:19:42.126Z",
+        "modified": "2020-12-11T18:22:36.014Z",
+        "name": "Casual Sleeveless Dresses",
+        "title": "Casual Sleeveless Dresses",
+        "parent": 30,
+        "slug": "casual-sleeveless-dresses",
+        "lft": 6,
+        "rght": 7,
+        "tree_id": 5,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 79,
+    "fields": {
+        "created": "2020-12-11T18:20:06.609Z",
+        "modified": "2020-12-11T18:20:06.609Z",
+        "name": "Jumper Dresses",
+        "title": "Jumper Dresses",
+        "parent": 30,
+        "slug": "jumper-dresses",
+        "lft": 18,
+        "rght": 19,
+        "tree_id": 5,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 80,
+    "fields": {
+        "created": "2020-12-11T18:20:23.731Z",
+        "modified": "2020-12-11T18:20:23.731Z",
+        "name": "Romper Jumpsuits",
+        "title": "Romper Jumpsuits",
+        "parent": 30,
+        "slug": "romper-jumpsuits",
+        "lft": 16,
+        "rght": 17,
+        "tree_id": 5,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 81,
+    "fields": {
+        "created": "2020-12-11T18:20:45.341Z",
+        "modified": "2020-12-11T18:23:32.536Z",
+        "name": "Occasion Long Sleeve Dresses",
+        "title": "Occasion Long Sleeve Dresses",
+        "parent": 30,
+        "slug": "occasion-long-sleeve-dresses",
+        "lft": 8,
+        "rght": 9,
+        "tree_id": 5,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 82,
+    "fields": {
+        "created": "2020-12-11T18:21:06.288Z",
+        "modified": "2020-12-11T18:23:41.577Z",
+        "name": "Occasion Short Sleeve Dresses",
+        "title": "Occasion Short Sleeve Dresses",
+        "parent": 30,
+        "slug": "occasion-short-sleeve-dresses",
+        "lft": 10,
+        "rght": 11,
+        "tree_id": 5,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 83,
+    "fields": {
+        "created": "2020-12-11T18:21:35.384Z",
+        "modified": "2020-12-11T18:23:19.057Z",
+        "name": "Occasion Sleeveless Dresses",
+        "title": "Occasion Sleeveless Dresses",
+        "parent": 30,
+        "slug": "occasion-sleeveless-dresses",
+        "lft": 12,
+        "rght": 13,
+        "tree_id": 5,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 84,
+    "fields": {
+        "created": "2020-12-11T18:21:58.724Z",
+        "modified": "2020-12-11T18:21:58.724Z",
+        "name": "Leotards & Tutu Dresses",
+        "title": "Leotards & Tutu Dresses",
+        "parent": 30,
+        "slug": "leotards-tutu-dresses",
+        "lft": 14,
+        "rght": 15,
+        "tree_id": 5,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 85,
+    "fields": {
+        "created": "2020-12-11T18:29:41.297Z",
+        "modified": "2020-12-11T18:29:41.297Z",
+        "name": "Windbreakers & Rain Jackets",
+        "title": "Windbreakers & Rain Jackets",
+        "parent": 43,
+        "slug": "windbreakers-rain-jackets",
+        "lft": 8,
+        "rght": 9,
+        "tree_id": 7,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 86,
+    "fields": {
+        "created": "2020-12-12T01:32:28.634Z",
+        "modified": "2020-12-12T01:32:28.634Z",
+        "name": "Vests",
+        "title": "Vests",
+        "parent": 43,
+        "slug": "vests",
+        "lft": 6,
+        "rght": 7,
+        "tree_id": 7,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 87,
+    "fields": {
+        "created": "2020-12-12T01:34:48.854Z",
+        "modified": "2020-12-12T01:35:26.697Z",
+        "name": "Short Sleeve Onesies",
+        "title": "Short Sleeve Onesies",
+        "parent": 1,
+        "slug": "short-sleeve-onesies",
+        "lft": 4,
+        "rght": 5,
+        "tree_id": 2,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 88,
+    "fields": {
+        "created": "2020-12-12T01:35:02.176Z",
+        "modified": "2020-12-12T01:35:33.782Z",
+        "name": "Long Sleeve Onesies",
+        "title": "Long Sleeve Onesies",
+        "parent": 1,
+        "slug": "long-sleeve-onesies",
+        "lft": 6,
+        "rght": 7,
+        "tree_id": 2,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 89,
+    "fields": {
+        "created": "2020-12-12T01:35:15.910Z",
+        "modified": "2020-12-12T01:35:41.287Z",
+        "name": "Sleeveless Onesies",
+        "title": "Sleeveless Onesies",
+        "parent": 1,
+        "slug": "sleeveless-onesies",
+        "lft": 8,
+        "rght": 9,
+        "tree_id": 2,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 90,
+    "fields": {
+        "created": "2020-12-12T01:42:12.710Z",
+        "modified": "2020-12-12T01:42:12.710Z",
+        "name": "Robes",
+        "title": "Robes",
+        "parent": 21,
+        "slug": "robes",
+        "lft": 12,
+        "rght": 13,
+        "tree_id": 6,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 91,
+    "fields": {
+        "created": "2020-12-12T01:46:04.550Z",
+        "modified": "2020-12-12T01:46:04.550Z",
+        "name": "Footies & Jumpsuits",
+        "title": "Footies & Jumpsuits",
+        "parent": 21,
+        "slug": "footies-jumpsuits",
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 6,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 92,
+    "fields": {
+        "created": "2020-12-12T02:00:48.919Z",
+        "modified": "2020-12-12T02:00:48.919Z",
+        "name": "Diaper Covers & Bloomers",
+        "title": "Diaper Covers & Bloomers",
+        "parent": 57,
+        "slug": "diaper-covers-bloomers",
+        "lft": 4,
+        "rght": 5,
+        "tree_id": 12,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 93,
+    "fields": {
+        "created": "2020-12-12T02:01:11.444Z",
+        "modified": "2020-12-12T02:01:38.781Z",
+        "name": "Other",
+        "title": "Other",
+        "parent": null,
+        "slug": "other",
+        "lft": 1,
+        "rght": 4,
+        "tree_id": 15,
+        "level": 0
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 94,
+    "fields": {
+        "created": "2020-12-12T02:01:18.303Z",
+        "modified": "2020-12-12T02:02:20.925Z",
+        "name": "Shoes",
+        "title": "Shoes",
+        "parent": null,
+        "slug": "shoes",
+        "lft": 1,
+        "rght": 4,
+        "tree_id": 14,
+        "level": 0
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 95,
+    "fields": {
+        "created": "2020-12-21T21:58:30.027Z",
+        "modified": "2020-12-21T21:58:30.027Z",
+        "name": "Baby Shoes",
+        "title": "Baby Shoes",
+        "parent": 94,
+        "slug": "baby-shoes",
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 14,
+        "level": 1
+    }
+},
+{
+    "model": "app.productcategory",
+    "pk": 96,
+    "fields": {
+        "created": "2020-12-21T21:59:10.529Z",
+        "modified": "2020-12-21T21:59:10.529Z",
+        "name": "Other Items",
+        "title": "Other Items",
+        "parent": 93,
+        "slug": "other-items",
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 15,
+        "level": 1
+    }
+}
+]

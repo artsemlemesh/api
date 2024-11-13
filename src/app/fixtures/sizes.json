@@ -1,0 +1,434 @@
+[
+{
+    "model": "app.productsize",
+    "pk": 1,
+    "fields": {
+        "created": "2020-11-30T15:09:01.062Z",
+        "modified": "2020-12-21T22:01:58.766Z",
+        "name": "Newborn",
+        "title": "Newborn",
+        "parent": 7,
+        "slug": "newborn",
+        "lft": 4,
+        "rght": 5,
+        "tree_id": 9,
+        "level": 1
+    }
+},
+{
+    "model": "app.productsize",
+    "pk": 2,
+    "fields": {
+        "created": "2020-11-30T15:09:01.082Z",
+        "modified": "2020-12-14T16:13:19.670Z",
+        "name": "0-3 months",
+        "title": "0-3 months",
+        "parent": 7,
+        "slug": "0-3-months",
+        "lft": 6,
+        "rght": 7,
+        "tree_id": 9,
+        "level": 1
+    }
+},
+{
+    "model": "app.productsize",
+    "pk": 3,
+    "fields": {
+        "created": "2020-11-30T15:09:01.090Z",
+        "modified": "2020-12-14T17:12:19.801Z",
+        "name": "3-6 months",
+        "title": "3-6 months",
+        "parent": 7,
+        "slug": "3-6-months",
+        "lft": 8,
+        "rght": 9,
+        "tree_id": 9,
+        "level": 1
+    }
+},
+{
+    "model": "app.productsize",
+    "pk": 4,
+    "fields": {
+        "created": "2020-11-30T15:09:01.097Z",
+        "modified": "2020-12-14T17:12:26.860Z",
+        "name": "6-9 months",
+        "title": "6-9 months",
+        "parent": 7,
+        "slug": "6-9-months",
+        "lft": 10,
+        "rght": 11,
+        "tree_id": 9,
+        "level": 1
+    }
+},
+{
+    "model": "app.productsize",
+    "pk": 5,
+    "fields": {
+        "created": "2020-11-30T15:09:01.104Z",
+        "modified": "2020-12-14T17:12:24.230Z",
+        "name": "9-12 months",
+        "title": "9-12 months",
+        "parent": 7,
+        "slug": "9-12-months",
+        "lft": 12,
+        "rght": 13,
+        "tree_id": 9,
+        "level": 1
+    }
+},
+{
+    "model": "app.productsize",
+    "pk": 6,
+    "fields": {
+        "created": "2020-11-30T15:09:01.113Z",
+        "modified": "2020-12-14T17:12:30.462Z",
+        "name": "12-18 months",
+        "title": "12-18 months",
+        "parent": 7,
+        "slug": "12-18-months",
+        "lft": 14,
+        "rght": 15,
+        "tree_id": 9,
+        "level": 1
+    }
+},
+{
+    "model": "app.productsize",
+    "pk": 7,
+    "fields": {
+        "created": "2020-12-11T01:49:59.627Z",
+        "modified": "2020-12-11T01:49:59.627Z",
+        "name": "Clothing",
+        "title": "Clothing",
+        "parent": null,
+        "slug": "clothing",
+        "lft": 1,
+        "rght": 48,
+        "tree_id": 9,
+        "level": 0
+    }
+},
+{
+    "model": "app.productsize",
+    "pk": 8,
+    "fields": {
+        "created": "2020-12-11T01:50:49.600Z",
+        "modified": "2020-12-21T22:01:55.694Z",
+        "name": "Preemie",
+        "title": "Preemie",
+        "parent": 7,
+        "slug": "preemie",
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 9,
+        "level": 1
+    }
+},
+{
+    "model": "app.productsize",
+    "pk": 9,
+    "fields": {
+        "created": "2020-12-11T01:52:44.173Z",
+        "modified": "2020-12-11T01:52:47.184Z",
+        "name": "18-24 months",
+        "title": "18-24 months",
+        "parent": 7,
+        "slug": "18-24-months",
+        "lft": 28,
+        "rght": 29,
+        "tree_id": 9,
+        "level": 1
+    }
+},
+{
+    "model": "app.productsize",
+    "pk": 10,
+    "fields": {
+        "created": "2020-12-11T01:53:38.541Z",
+        "modified": "2020-12-11T01:53:42.360Z",
+        "name": "2T",
+        "title": "2T",
+        "parent": 7,
+        "slug": "2t",
+        "lft": 32,
+        "rght": 33,
+        "tree_id": 9,
+        "level": 1
+    }
+},
+{
+    "model": "app.productsize",
+    "pk": 11,
+    "fields": {
+        "created": "2020-12-11T01:53:51.586Z",
+        "modified": "2020-12-11T01:53:54.183Z",
+        "name": "3T",
+        "title": "3T",
+        "parent": 7,
+        "slug": "3t",
+        "lft": 36,
+        "rght": 37,
+        "tree_id": 9,
+        "level": 1
+    }
+},
+{
+    "model": "app.productsize",
+    "pk": 12,
+    "fields": {
+        "created": "2020-12-11T01:54:05.792Z",
+        "modified": "2020-12-11T01:54:12.831Z",
+        "name": "4T",
+        "title": "4T",
+        "parent": 7,
+        "slug": "4t",
+        "lft": 40,
+        "rght": 41,
+        "tree_id": 9,
+        "level": 1
+    }
+},
+{
+    "model": "app.productsize",
+    "pk": 13,
+    "fields": {
+        "created": "2020-12-11T01:54:09.446Z",
+        "modified": "2020-12-11T01:54:23.434Z",
+        "name": "5T",
+        "title": "5T",
+        "parent": 7,
+        "slug": "5t",
+        "lft": 44,
+        "rght": 45,
+        "tree_id": 9,
+        "level": 1
+    }
+},
+{
+    "model": "app.productsize",
+    "pk": 14,
+    "fields": {
+        "created": "2020-12-11T01:55:59.508Z",
+        "modified": "2020-12-11T01:56:09.670Z",
+        "name": "One Size",
+        "title": "One Size",
+        "parent": 7,
+        "slug": "one-size",
+        "lft": 46,
+        "rght": 47,
+        "tree_id": 9,
+        "level": 1
+    }
+},
+{
+    "model": "app.productsize",
+    "pk": 15,
+    "fields": {
+        "created": "2020-12-11T01:59:30.220Z",
+        "modified": "2020-12-11T01:59:30.220Z",
+        "name": "Shoes",
+        "title": "Shoes",
+        "parent": null,
+        "slug": "shoes",
+        "lft": 1,
+        "rght": 18,
+        "tree_id": 10,
+        "level": 0
+    }
+},
+{
+    "model": "app.productsize",
+    "pk": 16,
+    "fields": {
+        "created": "2020-12-11T01:59:43.308Z",
+        "modified": "2021-01-01T01:48:33.757Z",
+        "name": "0 (Baby)",
+        "title": "0 (Baby)",
+        "parent": 15,
+        "slug": "0-baby-shoes",
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 10,
+        "level": 1
+    }
+},
+{
+    "model": "app.productsize",
+    "pk": 17,
+    "fields": {
+        "created": "2020-12-11T02:01:12.083Z",
+        "modified": "2021-01-01T01:48:54.421Z",
+        "name": "1 (Baby)",
+        "title": "1 (Baby)",
+        "parent": 15,
+        "slug": "1-baby-shoes",
+        "lft": 4,
+        "rght": 5,
+        "tree_id": 10,
+        "level": 1
+    }
+},
+{
+    "model": "app.productsize",
+    "pk": 18,
+    "fields": {
+        "created": "2020-12-11T02:01:19.696Z",
+        "modified": "2021-01-01T01:49:10.257Z",
+        "name": "2 (Baby)",
+        "title": "2 (Baby)",
+        "parent": 15,
+        "slug": "2-baby-shoes",
+        "lft": 6,
+        "rght": 7,
+        "tree_id": 10,
+        "level": 1
+    }
+},
+{
+    "model": "app.productsize",
+    "pk": 19,
+    "fields": {
+        "created": "2020-12-11T15:45:07.983Z",
+        "modified": "2021-01-01T01:49:25.829Z",
+        "name": "3 (Baby)",
+        "title": "3 (Baby)",
+        "parent": 15,
+        "slug": "3-baby-shoes",
+        "lft": 8,
+        "rght": 9,
+        "tree_id": 10,
+        "level": 1
+    }
+},
+{
+    "model": "app.productsize",
+    "pk": 20,
+    "fields": {
+        "created": "2020-12-11T15:45:17.827Z",
+        "modified": "2021-01-01T01:49:43.992Z",
+        "name": "4 (Baby)",
+        "title": "4 (Baby)",
+        "parent": 15,
+        "slug": "4-baby-shoes",
+        "lft": 10,
+        "rght": 11,
+        "tree_id": 10,
+        "level": 1
+    }
+},
+{
+    "model": "app.productsize",
+    "pk": 21,
+    "fields": {
+        "created": "2020-12-11T15:45:26.046Z",
+        "modified": "2021-01-01T01:50:08.335Z",
+        "name": "5 (Baby)",
+        "title": "5 (Baby)",
+        "parent": 15,
+        "slug": "5-baby-shoes",
+        "lft": 12,
+        "rght": 13,
+        "tree_id": 10,
+        "level": 1
+    }
+},
+{
+    "model": "app.productsize",
+    "pk": 22,
+    "fields": {
+        "created": "2020-12-11T15:45:38.823Z",
+        "modified": "2021-01-01T01:50:24.426Z",
+        "name": "6 (Baby)",
+        "title": "6 (Baby)",
+        "parent": 15,
+        "slug": "6-baby-shoes",
+        "lft": 14,
+        "rght": 15,
+        "tree_id": 10,
+        "level": 1
+    }
+},
+{
+    "model": "app.productsize",
+    "pk": 23,
+    "fields": {
+        "created": "2020-12-11T15:46:15.123Z",
+        "modified": "2021-01-01T01:50:39.288Z",
+        "name": "7 (Baby)",
+        "title": "7 (Baby)",
+        "parent": 15,
+        "slug": "7-baby-shoes",
+        "lft": 16,
+        "rght": 17,
+        "tree_id": 10,
+        "level": 1
+    }
+},
+{
+    "model": "app.productsize",
+    "pk": 24,
+    "fields": {
+        "created": "2021-01-01T01:51:01.521Z",
+        "modified": "2021-01-01T01:51:01.521Z",
+        "name": "2",
+        "title": "2",
+        "parent": 7,
+        "slug": "2",
+        "lft": 30,
+        "rght": 31,
+        "tree_id": 9,
+        "level": 1
+    }
+},
+{
+    "model": "app.productsize",
+    "pk": 25,
+    "fields": {
+        "created": "2021-01-01T01:51:13.412Z",
+        "modified": "2021-01-01T01:51:37.492Z",
+        "name": "3",
+        "title": "3",
+        "parent": 7,
+        "slug": "3",
+        "lft": 34,
+        "rght": 35,
+        "tree_id": 9,
+        "level": 1
+    }
+},
+{
+    "model": "app.productsize",
+    "pk": 26,
+    "fields": {
+        "created": "2021-01-01T01:51:17.570Z",
+        "modified": "2021-01-01T01:51:17.570Z",
+        "name": "4",
+        "title": "4",
+        "parent": 7,
+        "slug": "4",
+        "lft": 38,
+        "rght": 39,
+        "tree_id": 9,
+        "level": 1
+    }
+},
+{
+    "model": "app.productsize",
+    "pk": 27,
+    "fields": {
+        "created": "2021-01-01T01:51:23.413Z",
+        "modified": "2021-01-01T01:51:23.413Z",
+        "name": "5",
+        "title": "5",
+        "parent": 7,
+        "slug": "5",
+        "lft": 42,
+        "rght": 43,
+        "tree_id": 9,
+        "level": 1
+    }
+}
+]

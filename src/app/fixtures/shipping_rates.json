@@ -1,0 +1,32 @@
+[
+{
+    "model": "app.shippingrate",
+    "pk": 1,
+    "fields": {
+        "created": "2020-11-30T15:09:12.299Z",
+        "modified": "2020-11-30T15:09:12.299Z",
+        "type": "FlatRatePaddedEnvelope",
+        "rate": 7.75
+    }
+},
+{
+    "model": "app.shippingrate",
+    "pk": 2,
+    "fields": {
+        "created": "2020-11-30T15:09:12.303Z",
+        "modified": "2020-11-30T15:09:12.303Z",
+        "type": "MediumFlatRateBox",
+        "rate": 13.2
+    }
+},
+{
+    "model": "app.shippingrate",
+    "pk": 3,
+    "fields": {
+        "created": "2020-11-30T15:09:12.308Z",
+        "modified": "2020-11-30T15:09:12.308Z",
+        "type": "LargeFlatRateBox",
+        "rate": 18.3
+    }
+}
+]
